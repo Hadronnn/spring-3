@@ -15,6 +15,7 @@ public class Book {
     private double price;
 
     public Book() {
+        System.out.println("Book.Book");
     }
 
     public Book(int bookId, String name, String author, double price) {

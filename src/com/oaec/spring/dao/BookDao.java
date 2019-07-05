@@ -1,15 +1,10 @@
 package com.oaec.spring.dao;
 
+import org.springframework.stereotype.Repository;
 
-
-import com.oaec.spring.entity.Book;
-
-import java.util.List;
-
-public interface BookDao {
-    int doInsert(Book book);
-    int doDelete(Integer bookId);
-    int doUpdate(Book book);
-    List<Book> queryAll();
-    Book QueryById(Integer bookId);
+@Repository
+public class BookDao {
+    public BookDao() {
+        System.out.println("BookDao.BookDao");
+    }
 }

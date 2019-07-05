@@ -18,6 +18,10 @@
     @Controller：标记控制层
 4.可以使用@Value为属性赋值
     @Value("2")
-    private Integer bookId;
-    @Value("Spring")
+    private int bookId;
+    @Value("Spring开发")
     private String name;
+    @Value("于观旭")
+    private String author;
+    @Value("9.9")
+    private double price;

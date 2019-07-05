@@ -14,8 +14,8 @@ import java.util.List;
 public class HelloWorld {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContent.xml");
-        Book bean = context.getBean(Book.class);
-        System.out.println("bean = " + bean);
+        /*Book bean = context.getBean(Book.class);
+        System.out.println("bean = " + bean);*/
         context.close();
     }
 }
