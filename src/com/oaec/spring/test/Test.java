@@ -1,4 +1,4 @@
-package spring.test;
+package com.oaec.spring.test;
 
 import com.oaec.spring.dao.BookDao;
 import com.oaec.spring.entity.Book;

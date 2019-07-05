@@ -1,10 +1,10 @@
-package spring.test;
+package com.oaec.spring.test;
 
 
+import com.oaec.spring.entity.Book;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
-import spring.entity.Book;
 
 
 import java.sql.ResultSet;

@@ -1,4 +1,4 @@
-package spring.entity;
+package com.oaec.spring.entity;
 
 public class Book {
     private int bookId;

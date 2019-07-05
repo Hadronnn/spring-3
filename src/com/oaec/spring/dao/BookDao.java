@@ -1,8 +1,8 @@
-package spring.dao;
+package com.oaec.spring.dao;
 
 
 
-import spring.entity.Book;
+import com.oaec.spring.entity.Book;
 
 import java.util.List;
 

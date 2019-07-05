@@ -1,10 +1,10 @@
-package spring.dao.impl;
+package com.oaec.spring.dao.impl;
 
 
+import com.oaec.spring.dao.BookDao;
+import com.oaec.spring.entity.Book;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
-import spring.dao.BookDao;
-import spring.entity.Book;
 
 import java.util.List;
 

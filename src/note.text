@@ -1,0 +1,23 @@
+1.添加依赖
+    commons-logging-1.2.jar
+    druid-1.1.6.jar
+    mysql-connector-java-5.1.47.jar
+    spring-aop-5.1.8.RELEASE.jar
+    spring-beans-5.1.8.RELEASE.jar
+    spring-context-5.1.8.RELEASE.jar
+    spring-core-5.1.8.RELEASE.jar
+    spring-expression-5.1.8.RELEASE.jar
+    spring-jdbc-5.1.8.RELEASE.jar
+    spring-tx-5.1.8.RELEASE.jar
+2.开启组件扫描
+    <content:component-scan base-package="com.oaec.spring"/>
+3.在需要配置到IOC容器的类添加注解
+    @Component：标记普通组件
+    @Repository：标记数据层
+    @Service：标记服务层
+    @Controller：标记控制层
+4.可以使用@Value为属性赋值
+    @Value("2")
+    private Integer bookId;
+    @Value("Spring")
+    private String name;
