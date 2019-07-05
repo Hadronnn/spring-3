@@ -1,8 +1,18 @@
 package com.oaec.spring.entity;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Book {
+    @Value("2")
     private int bookId;
+    @Value("Spring开发")
     private String name;
+    @Value("于观旭")
+    private String author;
+    @Value("9.9")
+    private double price;
 
     public Book() {
     }
@@ -13,9 +23,6 @@ public class Book {
         this.author = author;
         this.price = price;
     }
-
-    private String author;
-    private double price;
 
 
     @Override
