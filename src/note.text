@@ -16,6 +16,7 @@
     @Repository：标记数据层
     @Service：标记服务层
     @Controller：标记控制层
+    备注：bean的id默认为首字母小写
 4.可以使用@Value为属性赋值
     @Value("2")
     private int bookId;
@@ -25,3 +26,8 @@
     private String author;
     @Value("9.9")
     private double price;
+5.使用SPEL，Spring的表达式语言
+    语法：#{}
+        1.可以引用其他的bean
+        2.数学运算
+        3.逻辑判断
