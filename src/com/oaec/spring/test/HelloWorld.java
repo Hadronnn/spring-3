@@ -16,8 +16,8 @@ import java.util.List;
 public class HelloWorld {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContent.xml");
-        /*BookService bookService = context.getBean(BookService.class);
-        bookService.show();*/
+        BookService bookService = context.getBean(BookService.class);
+        bookService.show();
         BookController bookController = context.getBean(BookController.class);
         bookController.show();
         context.close();
